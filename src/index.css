@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* ==========================================
+     GÖRSELDEKİ FERAH MAVİ & BEYAZ KONSEPTİ
+     ========================================== */
+  
+  /* Görseldeki o canlı mavi (Kart başlıkları, butonlar ve Sidebar için) */
+  --color-gov-navy: #2563eb;    
+  
+  /* Görseldeki okunabilir, yumuşak koyu gri metin rengi */
+  --color-gov-slate: #334155;   
+  
+  /* Görseldeki o ferah, göz yormayan, kağıt gibi tertemiz arka plan */
+  --color-gov-bg: #f8fafc;      
+  
+  /* Progress barlar (ilerleme çubukları) ve vurgular için açık mavi */
+  --color-gov-accent: #60a5fa;  
+  
+  /* Ekstra Destek Renkleri */
+  --color-gov-emerald: #10b981; /* Başarı ve Onay Yeşili */
+  --color-gov-blue: #3b82f6;    /* Link ve hover mavisi */
+}
+
+/* ==========================================
+   GENEL SAYFA AYARLARI
+   ========================================== */
+body {
+  @apply bg-gov-bg text-gov-slate antialiased; 
+  margin: 0;
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
